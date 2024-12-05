@@ -37,7 +37,7 @@ def filling_tables():
     session.commit()
 
 
-DSN = "postgresql://postgres:12345@localhost:5432/NetologyDBROM"
+DSN = ""
 engine = sq.create_engine(DSN)
 create_table(engine)
 
